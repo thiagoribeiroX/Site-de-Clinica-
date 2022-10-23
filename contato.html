@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div>
+        <!-- Aqui vai o seu header -->
+        <img src="http://clinicadaviduip.com.br/wp-content/uploads/2016/03/banner3.jpg" width="100%">
+    </div>
+    <table>
+        <tr>
+            <td style="width: 40%; padding-left: 80px; vertical-align: top;">
+                <h2>Fale Conosco</h2>
+                <h2 style="margin-top: 1px; margin-bottom: 5px; font-size: 18px;">Duvidas e Sugestões</h2>
+                <div style="visibility: visible; animation-name: fadeInLeft;">
+                    <form role="form"   method="post" action="" ><button type="submit"  style="display: none; width: 0px; height: 0px;"></button>
+                        <input type="text" name="Nome" id="nome" placeholder="Digite seu nome" required="" data-bv-field="Nome">
+                        <i data-bv-icon-for="Nome" style="display: none;"></i>
+                        <small data-bv-validator="notEmpty" data-bv-for="Nome" data-bv-result="NOT_VALIDATED" style="display: none;">Campo vazio</small>
+                </div>
+                    <div> 
+                        <span><i></i></span> 
+                        <input type="email" name="Email" id="email" placeholder="Digite seu e-mail" pattern="[a-z\s]+$" required="" data-bv-field="Email">
+                    </div>
+                    <i  data-bv-icon-for="Email" style="display: none;"></i>
+                    <small data-bv-validator="emailAddress" data-bv-for="Email" data-bv-result="NOT_VALIDATED" style="display: none;">Por favor, digite um email válido 
+                    </small>
+                    <small data-bv-validator="notEmpty" data-bv-for="Email" data-bv-result="NOT_VALIDATED" style="display: none;">Campo vazio</small>
+                    <small c data-bv-validator="regexp" data-bv-for="Email" data-bv-result="NOT_VALIDATED" style="display: none;">Por favor, indique um valor correspondente ao padrão
+                    </small>
+                                <div> 
+                                    <div>
+                                        <div>
+                                            <input type="text"  name="Telefone" id="tel" placeholder="Digite seu telefone" required="" data-bv-field="Telefone">
+                                        </div>
+                                            <i data-bv-icon-for="Telefone" style="display: none;"></i>
+                                            <small  data-bv-validator="notEmpty" data-bv-for="Telefone" data-bv-result="NOT_VALIDATED" style="display: none;">Campo vazio
+                                            </small>
+                                    </div>
+                                </div>
+                                <div >
+                                    <div> 
+                                        <textarea id="Text" name="Mensagem" placeholder="Digite aqui a sua Mensagem" rows="6" cols="6" style="width: 179px; height: 96px;"></textarea>
+                                    </div>
+                                </div> <br clear="all"> <button type="submit" value="enviar" name="enviar">Enviar</button>
+                            </div>
+                        </form>
+                                </div>
+            </td>
+            <td>
+                <div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1079768922255!2d-46.67809218545136!3d-23.564565167594715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5778d0b76cc3%3A0xe57c88cabc1b699c!2sAlameda+Gabriel+Monteiro+da+Silva%2C+429+-+Jardim+America%2C+S%C3%A3o+Paulo+-+SP%2C+01441-000!5e0!3m2!1spt-BR!2sbr!4v1469130926436" height="300" frameborder="1" style="border:1" allowfullscreen=""></iframe>
+                </div>
+            </td>
+            <td style="vertical-align: top;">
+                <div>
+                    <h3>ENDEREÇO</h3>
+                    <p>Al. Gabriel Monteiro da Silva, 429</p>
+                    <p>01441-000 - Jd. América - SP</p>
+                    <p><strong>CONTATOS</strong></p><p>TEL:(99) 3565-0979</p>
+                    <p><strong>EMERGÊNCIA EQUIPE INFECTOLOGIA CELULAR:</strong> TEL:(99) 3565-0979</p>
+                </div>
+            </td>
+        </tr>
+
+    </table>
+
+    
+                    
+                    
+
+
+
+
+</body>
+</html>
